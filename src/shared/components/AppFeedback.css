@@ -1,0 +1,58 @@
+.app-route-loading {
+  position: sticky;
+  top: 65px;
+  z-index: 10;
+  border-bottom: 1px solid #bfdbfe;
+  background: #eff6ff;
+  color: #1d4ed8;
+  padding: 10px 32px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.app-feedback {
+  display: grid;
+  min-height: calc(100vh - 65px);
+  place-items: center;
+  padding: 32px;
+}
+
+.app-feedback__card {
+  width: min(100%, 460px);
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  background: #ffffff;
+  padding: 32px;
+  text-align: center;
+}
+
+.app-feedback__eyebrow {
+  margin: 0 0 8px;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.app-feedback__title {
+  margin: 0;
+  font-size: 28px;
+}
+
+.app-feedback__description {
+  margin: 12px 0 0;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.app-feedback__link {
+  display: inline-flex;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-weight: 700;
+}
