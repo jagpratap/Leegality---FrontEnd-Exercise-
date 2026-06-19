@@ -500,6 +500,6 @@ A production-ready version should solve this by either:
 Add the following before submitting:
 
 ```txt
-GitHub Repository: <your-github-repo-link>
-Demo Link: <your-deployed-demo-link>
+GitHub Repository: https://github.com/jagpratap/Leegality---FrontEnd-Exercise-
+Demo Link: https://jagpratap.github.io/Leegality---FrontEnd-Exercise-/
 ```
