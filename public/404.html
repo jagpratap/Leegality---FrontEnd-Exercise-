@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      const repoBase = '/Leegality---FrontEnd-Exercise-/'
+      const currentPath = window.location.pathname
+      const currentSearch = window.location.search
+      const currentHash = window.location.hash
+
+      const pathInsideApp = currentPath.replace(repoBase, '/')
+
+      window.location.replace(
+        window.location.origin +
+          repoBase +
+          '?redirect=' +
+          encodeURIComponent(pathInsideApp + currentSearch + currentHash),
+      )
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
